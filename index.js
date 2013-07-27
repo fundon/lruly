@@ -117,6 +117,7 @@ Cache.prototype.removeOldest = function () {
  * Removes element from the cache.
  *
  * @param {Mixed} element
+ * @api private
  */
 
 Cache.prototype.removeElement = function (ele) {
@@ -129,7 +130,7 @@ Cache.prototype.removeElement = function (ele) {
 };
 
 /**
- *Len returns the number of items in the cache.
+ * Len returns the number of items in the cache.
  */
 
 Cache.prototype.len = function () {
@@ -137,6 +138,15 @@ Cache.prototype.len = function () {
     return 0;
   }
   return this.list.length;
+};
+
+/**
+ * Clean the cache.
+ */
+
+Cache.prototype.clean = function () {
+  this.list.length = 0;
+  this.cache = Object.create(null);
 };
 
 /**

@@ -49,6 +49,12 @@ cache.remove('module');
 cache.len();
 ```
 
+  Clean the cache:
+
+```js
+cache.clean();
+```
+
 ## Running Tests
 
 To run the test suite first invoke the following command within the repo, installing the development dependencies:

@@ -92,3 +92,15 @@ describe('lru#len()', function () {
     lru.len().should.eql(100);
   })
 })
+
+describe('lru#clean()', function () {
+  it('should be empty', function () {
+    var lru = createLRUCache(100)
+      , len = 1000;
+    for (; len--; ) {
+      lru.add(len, Math.random() * len);
+    }
+    lru.clean();
+    lru.len().should.eql(0);
+  })
+})
