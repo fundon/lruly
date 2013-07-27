@@ -18,7 +18,6 @@ function createLRUCache(maxEntries) {
   return new Cache(maxEntries, [], {});
 }
 
-
 /**
  *
  * Cache is an LRU cache.
