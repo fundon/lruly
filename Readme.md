@@ -18,8 +18,8 @@ $ npm install -g lruly
 
 ## Quick Start
 
-  Create the LRU cache and set `maxEntries`
-  If maxEntries is zero, the cache has no limit:
+  Create the LRU cache and set `maxEntries`,
+  if `maxEntries` is zero, the cache has no limit:
 
 ```js
 var cache = lruly(8964);
