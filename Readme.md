@@ -13,7 +13,7 @@ cache.add('foo', 'hello world');
 ## Installation
 
 ```sh
-  $ npm install -g lruly
+$ npm install -g lruly
 ```
 
 ## Quick Start
