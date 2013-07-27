@@ -1,7 +1,7 @@
 lruly
 -----
 
-  Implements an LRU cache.
+  Implements an [LRU](http://en.wikipedia.org/wiki/Cache_algorithms#Least_Recently_Used) cache.
 
 ```js
 var lruly = require('lruly');
@@ -12,11 +12,14 @@ cache.add('foo', 'hello world');
 
 ## Installation
 
+```sh
   $ npm install -g lruly
+```
 
 ## Quick Start
 
-  Create the LRU cache and set `maxEntries`:
+  Create the LRU cache and set `maxEntries`
+  If maxEntries is zero, the cache has no limit:
 
 ```js
 var cache = lruly(8964);
