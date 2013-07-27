@@ -6,7 +6,7 @@ var inherits = require('util').inherits
   , EventEmitter = require('events').EventEmitter;
 
 /**
- * Expose `createCache`.
+ * Expose `createLRUCache`.
  */
 
 exports = module.exports = createLRUCache
