@@ -12,6 +12,10 @@
   "scripts": {
     "test": "make test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cfddream/lruly.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "mocha": "~1.12.0"
