@@ -65,3 +65,4 @@ then run the tests:
 
     $ make test
 
+### MIT License
