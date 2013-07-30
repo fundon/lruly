@@ -60,9 +60,9 @@ Cache.prototype.add = function (key, value) {
     return;
   }
   ele = new Entry(key, value);
-  this.list.unshift(ele);
+  var len = this.list.unshift(ele);
   this.cache[key] = ele;
-  if (this.maxEntries !== 0 && this.list.length > this.maxEntries) {
+  if (this.maxEntries !== 0 && len > this.maxEntries) {
     this.removeOldest();
   }
 };
