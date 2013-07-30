@@ -40,6 +40,8 @@ cache.get('module'); // { version: '0.0.1', name: 'lruly' }
   Remove the entiry by key:
 
 ```js
+cache.on('evicted', function (key, value) { /* do some things */ });
+
 cache.remove('module');
 ```
 
