@@ -10,6 +10,10 @@
   ],
   "license": "MIT",
   "scripts": [
-    "index.js"
-  ]
+    "lruly.js"
+  ],
+  "dependencies": {
+    "component/emitter": "1.0.1",
+    "component/inherit": "0.0.2"
+  }
 }
