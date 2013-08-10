@@ -14,6 +14,8 @@ cache.add('foo', 'hello world');
 
 ```sh
 $ npm install -g lruly
+
+$ component install cfddream/lruly
 ```
 
 ## Quick Start
