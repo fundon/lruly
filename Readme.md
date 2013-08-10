@@ -37,10 +37,10 @@ cache.add('module', { version: '0.0.1', name: 'lruly' });
 cache.get('module'); // { version: '0.0.1', name: 'lruly' }
 ```
 
-  Remove the entiry by key:
+  Remove the entry by key:
 
 ```js
-cache.on('evicted', function (key, value) { /* do some things */ });
+cache.on('evicted', function (key, value) { /* do something */ });
 
 cache.remove('module');
 ```
