@@ -1,0 +1,15 @@
+{
+  "name": "lruly",
+  "version": "0.0.7",
+  "description": "lruly implements an LRU cache.",
+  "author": "FangDun Cai <cfddream@gmail.com>",
+  "keywords": [
+    "lru",
+    "lruly",
+    "lru caching"
+  ],
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
