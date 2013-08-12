@@ -145,8 +145,7 @@ Cache.prototype.len = function () {
  */
 
 Cache.prototype.clean = function () {
-  this.list.length = 0;
-  this.cache = Object.create(null);
+  this.list = this.cache = null
 };
 
 /**
